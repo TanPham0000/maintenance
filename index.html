@@ -4,28 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Maintenance</title>
-  <link rel="stylesheet" href="./styles.css"/>
-  <link rel="stylesheet" href="./star.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="styles.css"/>
 </head>
-<body>
+<body class="animated-grain">
     <main>
-        <h1>Maintenance</h1>
-        <p>We're rebuilding! My new site is coming soon. In the meantime, you can reach me here:</p>
+        <h1 class="parallax" data-depth="0.6">Maintenance</h1>
+        <p class="parallax" data-depth="0.4">We're rebuilding! My new site is coming soon. 
+            In the meantime, you can reach me here:</p>
 
-        <div class="links">
+        <div class="links parallax" data-depth="0.3">
         <a href="mailto:tan.pham2709@gmail.com">Email</a>
         <a href="https://www.instagram.com/tan_pham_/?next=%2F">Instagram</a>
         <a href="https://www.linkedin.com/in/t%C3%A2n-pham/">LinkedIn</a>
         </div>
-
     </main>
 
     <footer>© <span id="year"></span> Tân Pham</footer>
-
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+    <script src="parallax.js"></script>
 </body>
-
 </html>
